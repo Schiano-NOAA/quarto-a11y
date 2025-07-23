@@ -1,0 +1,6 @@
+label,alt_text
+fig-cars,A scatter plot of mile per gallon versus weight of cars with weight in 1000 pounds is on the x axis and miles per gallon is on the y-axis.
+fig-cars-plot2,This is alternative test for other plot
+fig-testa,Alternative text for in-text figure not made from a code chunk
+fig-testb,Alternative text for another in-text figure not made from a code chunk
+fig-random,Alternative text for an image loaded in an R chunk from knitr::include_graphics()

@@ -1,0 +1,1610 @@
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.7.22)  23 JUL 2025 09:38
+ restricted system commands enabled.
+**quarto_a11y.tex
+(./quarto_a11y.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
+luaotfload | conf : Root cache directory is "C:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-resolved path "c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "C:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (./accessibility.tex (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/documentmetadata-support.ltx (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-testphase.sty
+Package: pdfmanagement-testphase 2025-07-15 v0.96u LaTeX PDF management bundle
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-base.sty
+Package: tagpdf-base 2025-07-16 v0.99u part of tagpdf - provide base, no-op versions of the user commands 
+\c@g__tag_MCID_abs_int=\count273
+\c@g__tag_struct_abs_int=\count274
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement.ltx
+File: pdfmanagement.ltx 2025-07-15 v0.96u PDF management code
+\g__pdfmanagement_EmbeddedFiles_int=\count275
+\l__pdfmeta_xmp_indent_int=\count276
+\g_pdffile_embed_pdfa_int=\count277
+\g_pdffile_embed_nonpdfa_int=\count278
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2025-06-09 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count279
+Inserting `l3color' in `luaotfload.parse_color'.
+Inserting `l3opacity' in `luaotfload.parse_transparent'.) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/l3backend-testphase-luatex.def
+File: l3backend-testphase-luatex.def 2025-07-15 v0.96s LaTeX PDF management bundle backend support:PDFoutput(LuaTeX)
+\l__pdf_backend_tmpa_box=\box53
+\l__pdf_backend_tmpb_box=\box54
+\g__pdf_backend_resourceid_int=\count280
+\g__pdf_backend_name_int=\count281
+\g__pdf_backend_page_int=\count282
+Custom whatsit pdf_link_adjust_level = 1
+Inserting `linksplit' in `pre_shipout_filter'.
+Lua function pdflinkadjustlevel = 29) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/phase-III-latex-lab-testphase.ltx
+File: phase-III-latex-lab-testphase.ltx 2024-02-12 v0.1c latex-lab wrapper phase-III
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/phase-II-latex-lab-testphase.ltx
+File: phase-II-latex-lab-testphase.ltx 2023-06-15 v0.1b latex-lab wrapper phase-II
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-1.sty
+Package: latex-lab-testphase-new-or-1 2025-05-10 v0.85d Temporary output patches for tagging and better link support -- no longer active
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-new-or-2.sty
+Package: latex-lab-testphase-new-or-2 2025-05-10 v0.86d Changes to the output routine
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-footnotes.ltx
+File: latex-lab-footnotes.ltx 2025-05-09 v0.8m changes to the footnote interfaces
+\footnotemargin=\dimen147
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf.sty
+Package: tagpdf 2025-07-16 v0.99u  LaTeX kernel code for PDF tagging 
+\l__tag_tmpa_int=\count283
+\l__tag_tmpa_box=\box55
+\l__tag_tmpb_box=\box56
+\l__tag_loglevel_int=\count284
+\g__tag_unique_cnt_int=\count285
+\l__tag_tag_stop_int=\count286
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-luatex.def
+File: tagpdf-luatex.def 2025-07-16 v0.99u tagpdf driver for luatex
+luaotfload | db : Font names database loaded from C:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz
+Lua module: tagpdf 2025-07-16 v0.99u tagpdf lua code
+Lua-only attribute g__tag_mc_type_attr = 4
+Lua-only attribute g__tag_mc_cnt_attr = 5
+Lua-only attribute g__tag_structnum_attr = 6
+Lua-only attribute g__tag_interwordspaceOff_attr = 7
+Lua-only attribute g__tag_interwordspace_attr = 8
+Lua-only attribute g__tag_interwordfont_attr = 9
+Inserting `tagpdf.rewrite-softhyphen' in `pre_shaping_filter'.
+Inserting `tagpdf.rewrite-softhyphen' in `post_shaping_filter'.
+Inserting `tagpdf' in `linksplit'.) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tagpdf/tagpdf-mc-code-lua.sty
+Package: tagpdf-mc-code-lua 2025-07-16 v0.99u tagpdf - mc code only for the luamode 
+)
+\g__tag_tree_id_pad_int=\count287
+\c@g__tag_parenttree_obj_int=\count288
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-mathml.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-book.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-latex-lab.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf.def
+
+
+Package tagpdf Info: reading namespace definitions tagpdf-ns-pdf2.def
+
+\g__tag_struct_AFobj_int=\count289
+\g__tag_para_begin_int=\count290
+\g__tag_para_end_int=\count291
+\g__tag_para_main_begin_int=\count292
+\g__tag_para_main_end_int=\count293
+)
+Inserting `markspaces' in `pre_linebreak_filter'.
+Inserting `markspaces' in `hpack_filter'.) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-block.sty
+Package: latex-lab-testphase-block 2025-05-17 v0.9c blockenv implementation
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-kernel-changes.sty
+Package: latex-lab-kernel-changes 2025-05-10 v0.85g General kernel and class changes
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftex/glyphtounicode.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/glyphtounicode-cmex.tex))
+
+LaTeX template Info: Declaring template type 'blockenv' taking 1 argument(s)
+(template)           on line 68.
+
+
+LaTeX template Info: Declaring template type 'block' taking 1 argument(s) on
+(template)           line 69.
+
+
+LaTeX template Info: Declaring template type 'para' taking 1 argument(s) on
+(template)           line 70.
+
+
+LaTeX template Info: Declaring template type 'list' taking 1 argument(s) on
+(template)           line 71.
+
+
+LaTeX template Info: Declaring template type 'item' taking 1 argument(s) on
+(template)           line 72.
+
+\c@maxblocklevels=\count294
+\l__par_start_skip=\skip49
+\l__block_botsep_skip=\skip50
+\l__block_parbotsep_skip=\skip51
+\l__block_parindent_dim=\dimen148
+\l__block_counter_start_int=\count295
+\l__block_one_label_box=\box57
+\g__block_labels_box=\box58
+\l__block_tmpa_skip=\skip52
+\l__block_topsepadd_skip=\skip53
+\l__block_effective_top_skip=\skip54
+LaTeX Info: Redefining \begin on input line 961.
+LaTeX Info: Redefining \centering on input line 1515.
+LaTeX Info: Redefining \raggedleft on input line 1516.
+LaTeX Info: Redefining \raggedright on input line 1517.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-sec.sty
+Package: latex-lab-testphase-sec 2025-05-10 v0.84i Code related to the tagging of sectioning commands
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-toc.sty
+Package: latex-lab-testphase-toc 2025-05-10 v0.85g  Code related to the tagging of toc-like lists
+\g__tag_toc_level_int=\count296
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-minipage.sty
+Package: latex-lab-testphase-minipage 2025-05-10 v0.81g Code related to the tagging of minipages and parboxes
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-graphic.sty
+Package: latex-lab-testphase-graphic 2025-05-10 v0.80g Code related to the tagging of graphics
+\g__tag_graphic_int=\count297
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-float.sty
+Package: latex-lab-testphase-float 2025-05-09 v0.81j Code related to the tagging of floats
+\g__tag_float_int=\count298
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-bib.sty
+Package: latex-lab-testphase-bib 2025-05-09 v0.81c Code related to the tagging of bibliography and cite command
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-text.sty
+Package: latex-lab-testphase-text 2025-05-10 v0.85f Code related to the tagging of various small text commands
+LaTeX Info: Redefining \mbox on input line 84.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-marginpar.sty
+Package: latex-lab-testphase-marginpar 2025-05-10 v0.85g Changes related to the tagging of the margin notes
+\g__kernel_marginpar_int=\count299
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/title-latex-lab-testphase.ltx
+File: title-latex-lab-testphase.ltx 2025-03-08 v0.85d Changes related to the tagging of the title
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-title.sty
+Package: latex-lab-testphase-title 2025-03-08 v0.85d Changes related to the tagging of the title
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/table-latex-lab-testphase.ltx
+File: table-latex-lab-testphase.ltx 2025-05-10 v0.85s latex-lab wrapper table
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-table.sty
+Package: latex-lab-testphase-table 2025-05-10 v0.85s Code related to the tagging of tables
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen149
+\ar@mcellbox=\box59
+\extrarowheight=\dimen150
+\NC@list=\toks17
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box60
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/math-latex-lab-testphase.ltx
+File: math-latex-lab-testphase.ltx 2023-07-20 v0.8a latex-lab wrapper math
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-math.sty
+Package: latex-lab-testphase-math 2025-03-10 v0.8d code related to the math tagging
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-math.ltx
+File: latex-lab-math.ltx 2025-05-10 v0.6p Grab all the math(s) and tag it (experiments)
+\l__math_tmpa_skip=\skip57
+\g__math_mathml_total_int=\count300
+\g__math_mathml_int=\count301
+\g__math_math_total_int=\count302
+\g__math_mathml_AF_found_int=\count303
+\g__math_mathml_AF_attached_int=\count304
+\l__math_tmpa_box=\box61
+\l__math_mathstyle_int=\count305
+\g__math_mathchoice_int=\count306
+\l__math_grab_env_int=\count307
+\g__math_postdisplaypenalty_int=\count308
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-mathpkg.ltx
+File: latex-lab-mathpkg.ltx 2025-05-10 v0.1b mathpkg adaptions
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-mathintent.ltx
+File: latex-lab-mathintent.ltx 2025-05-10 v0.1b intent experiments
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/firstaid-latex-lab-testphase.ltx
+File: firstaid-latex-lab-testphase.ltx 2025-05-09 v0.85j latex-lab wrapper firstaid
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-firstaid.sty
+Package: latex-lab-testphase-firstaid 2025-05-09 v2025-05-09 Temporary patches to external packages needed for the tagging project
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/tikz-latex-lab-testphase.ltx
+File: tikz-latex-lab-testphase.ltx 2025-05-10 v0.80c latex-lab wrapper tikz
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-testphase-tikz.sty
+Package: latex-lab-testphase-tikz 2025-05-10 v0.80c Code related to the tagging of tikz pictures
+))
+
+LaTeX DocumentMetadata Info: Loading testphase modules
+(DocumentMetadata)           phase-III, title, table, math, firstaid, tikz
+
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/pdfmanagement-firstaid.sty
+Package: pdfmanagement-firstaid 2025-07-15 v0.96u LaTeX PDF management bundle / firstaid-patches
+
+Package pdfmanagement Info: loading pdfmanagement firstaid code for pgf
+
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrartcl.cls
+Document Class: scrartcl 2025/06/04 v3.45 KOMA-Script document class (article)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2025/06/04 v3.45 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2025/06/04 v3.45 KOMA-Script package (file load hooks)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2025/06/04 v3.45 KOMA-Script package (using LaTeX hooks)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2025/06/04 v3.45 KOMA-Script package (logo)
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2025/06/04 v3.45 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip58
+\scr@dte@tocline@numbox=\box62
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 135.
+
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+Class scrartcl Info: File `scrsize11pt.clo' used instead of
+(scrartcl)           file `scrsize11.clo' to setup font sizes on input line 2476.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2025/06/04 v3.45 KOMA-Script font size class option (11pt)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2025/06/04 v3.45 KOMA-Script package (type area)
+\ta@bcor=\skip59
+\ta@div=\count309
+Package typearea Info: You've used standard option `letterpaper'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `paper=letter'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `paper=letter' there
+(typearea)             instead of `letterpaper', too.
+\ta@hblk=\skip60
+\ta@vblk=\skip61
+\ta@temp=\skip62
+\footheight=\skip63
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 11
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 614.295pt
+(typearea)              \textwidth      = 446.76004pt
+(typearea)              DIV departure   = -14%
+(typearea)              \evensidemargin = 11.49748pt
+(typearea)              \oddsidemargin  = 11.49748pt
+(typearea)             \paperheight     = 794.96999pt
+(typearea)              \textheight     = 582.20026pt
+(typearea)              \topmargin      = -37.40001pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1804.
+)
+
+Class scrartcl Warning: `\@startsection' has been changed.
+(scrartcl)              scrartcl needs it's own definition of `\@startsection'
+(scrartcl)              to provide extended features for the optional argument
+(scrartcl)              of `\section' etc.
+(scrartcl)              Generally it defines `\@startsection' completely new
+(scrartcl)              to achieve this. Because of the unexpected definition
+(scrartcl)              an alternative approach will be used.
+(scrartcl)              If this fails and if there isn't a new release of
+(scrartcl)              KOMA-Script that fixes the problem, please
+(scrartcl)              send a report to the KOMA-Script author.
+(scrartcl)              Note, that this alternative approach does not
+(scrartcl)              execute the elements of do-hooks:
+(scrartcl)                - `heading/postinit',
+(scrartcl)                - `heading/branch/star',
+(scrartcl)                - `heading/branch/nostar',
+(scrartcl)              and does always use `runin=bysign' and
+(scrartcl)              `afterindent=bysign'.
+
+
+Class scrartcl Warning: Unexpected definition of \@sect!
+(scrartcl)              Please send information about this to
+(scrartcl)              the KOMA-Script maintainer!
+(scrartcl)              Maybe LaTeX will be broken by the redefinition
+(scrartcl)              of \@sect on input line 3549.
+
+
+Class scrartcl Warning: Unexpected definition of \@ssect!
+(scrartcl)              Please send information about this to
+(scrartcl)              the KOMA-Script maintainer!
+(scrartcl)              Maybe LaTeX will be broken by the redefinition
+(scrartcl)              of \@ssect on input line 3745.
+
+
+Class scrartcl Warning: Unexpected definition of \@xsect!
+(scrartcl)              Please send information about this to
+(scrartcl)              the KOMA-Script maintainer!
+(scrartcl)              Maybe LaTeX will be broken by the redefinition
+(scrartcl)              of \@xsect on input line 3826.
+
+\c@part=\count310
+\c@section=\count311
+\c@subsection=\count312
+\c@subsubsection=\count313
+\c@paragraph=\count314
+\c@subparagraph=\count315
+\scr@dte@section@maxnumwidth=\skip64
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\section on input line 5149.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\section on input line 5149.
+\scr@dte@part@maxnumwidth=\skip65
+Class scrartcl Info: using compatibility default `afterindent=false'
+(scrartcl)           for `\part on input line 5157.
+\scr@dte@subsection@maxnumwidth=\skip66
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsection on input line 5167.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsection on input line 5167.
+\scr@dte@subsubsection@maxnumwidth=\skip67
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subsubsection on input line 5177.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subsubsection on input line 5177.
+\scr@dte@paragraph@maxnumwidth=\skip68
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\paragraph on input line 5188.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\paragraph on input line 5188.
+\scr@dte@subparagraph@maxnumwidth=\skip69
+Class scrartcl Info: using compatibility default `runin=bysign'
+(scrartcl)           for `\subparagraph on input line 5198.
+Class scrartcl Info: using compatibility default `afterindent=bysign'
+(scrartcl)           for `\subparagraph on input line 5198.
+\abovecaptionskip=\skip70
+\belowcaptionskip=\skip71
+\c@pti@nb@sid@b@x=\box63
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 6394.
+\scr@dte@figure@maxnumwidth=\skip72
+\c@figure=\count316
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 6410.
+\scr@dte@table@maxnumwidth=\skip73
+\c@table=\count317
+Class scrartcl Info: Redefining `\numberline' on input line 6580.
+\bibindent=\dimen151
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip74
+For additional information on amsmath, use the `?' option.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen152
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen153
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count318
+LaTeX Info: Redefining \frac on input line 235.
+\uproot@=\count319
+\leftroot@=\count320
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count321
+\DOTSCASE@=\count322
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box64
+\strutbox@=\box65
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen154
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count323
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count324
+\dotsspace@=\muskip17
+\c@parentequation=\count325
+\dspbrk@lvl=\count326
+\tag@help=\toks20
+\row@=\count327
+\column@=\count328
+\maxfields@=\count329
+\andhelp@=\toks21
+\eqnshift@=\dimen155
+\alignsep@=\dimen156
+\tagshift@=\dimen157
+\tagwidth@=\dimen158
+\totwidth@=\dimen159
+\lineht@=\dimen160
+\@envbody=\toks22
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-amsmath.ltx
+File: latex-lab-amsmath.ltx 2025-05-23 v0.1g amsmath adaptions
+LaTeX Info: Redefining \eqref on input line 54.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-07-19 L3 programming layer (loader) 
+)
+Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
+Package: unicode-math-luatex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count330
+\l__fontspec_language_int=\count331
+\l__fontspec_strnum_int=\count332
+\l__fontspec_tmp_int=\count333
+\l__fontspec_tmpa_int=\count334
+\l__fontspec_tmpb_int=\count335
+\l__fontspec_tmpc_int=\count336
+\l__fontspec_em_int=\count337
+\l__fontspec_emdef_int=\count338
+\l__fontspec_strong_int=\count339
+\l__fontspec_strongdef_int=\count340
+\l__fontspec_tmpa_dim=\dimen161
+\l__fontspec_tmpb_dim=\dimen162
+\l__fontspec_tmpc_dim=\dimen163
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+LaTeX Encoding Info:    Redeclaring text command \capitalcedilla (encoding TS1) on input line 49.
+LaTeX Encoding Info:    Redeclaring text command \capitalogonek (encoding TS1) on input line 52.
+LaTeX Encoding Info:    Redeclaring text command \capitalgrave (encoding TS1) on input line 55.
+LaTeX Encoding Info:    Redeclaring text command \capitalacute (encoding TS1) on input line 56.
+LaTeX Encoding Info:    Redeclaring text command \capitalcircumflex (encoding TS1) on input line 57.
+LaTeX Encoding Info:    Redeclaring text command \capitaltilde (encoding TS1) on input line 58.
+LaTeX Encoding Info:    Redeclaring text command \capitaldieresis (encoding TS1) on input line 59.
+LaTeX Encoding Info:    Redeclaring text command \capitalhungarumlaut (encoding TS1) on input line 60.
+LaTeX Encoding Info:    Redeclaring text command \capitalring (encoding TS1) on input line 61.
+LaTeX Encoding Info:    Redeclaring text command \capitalcaron (encoding TS1) on input line 62.
+LaTeX Encoding Info:    Redeclaring text command \capitalbreve (encoding TS1) on input line 63.
+LaTeX Encoding Info:    Redeclaring text command \capitalmacron (encoding TS1) on input line 64.
+LaTeX Encoding Info:    Redeclaring text command \capitaldotaccent (encoding TS1) on input line 65.
+LaTeX Encoding Info:    Redeclaring text command \t (encoding TS1) on input line 66.
+LaTeX Encoding Info:    Redeclaring text command \capitaltie (encoding TS1) on input line 67.
+LaTeX Encoding Info:    Redeclaring text command \newtie (encoding TS1) on input line 68.
+LaTeX Encoding Info:    Redeclaring text command \capitalnewtie (encoding TS1) on input line 69.
+LaTeX Encoding Info:    Redeclaring text symbol \textcapitalcompwordmark (encoding TS1) on input line 70.
+LaTeX Encoding Info:    Redeclaring text symbol \textascendercompwordmark (encoding TS1) on input line 71.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightbase (encoding TS1) on input line 72.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotestraightdblbase (encoding TS1) on input line 73.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwelveudash (encoding TS1) on input line 74.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequartersemdash (encoding TS1) on input line 75.
+LaTeX Encoding Info:    Redeclaring text symbol \textleftarrow (encoding TS1) on input line 76.
+LaTeX Encoding Info:    Redeclaring text symbol \textrightarrow (encoding TS1) on input line 77.
+LaTeX Encoding Info:    Redeclaring text symbol \textblank (encoding TS1) on input line 78.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollar (encoding TS1) on input line 79.
+LaTeX Encoding Info:    Redeclaring text symbol \textquotesingle (encoding TS1) on input line 80.
+LaTeX Encoding Info:    Redeclaring text command \textasteriskcentered (encoding TS1) on input line 81.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphen (encoding TS1) on input line 92.
+LaTeX Encoding Info:    Redeclaring text symbol \textfractionsolidus (encoding TS1) on input line 93.
+LaTeX Encoding Info:    Redeclaring text symbol \textzerooldstyle (encoding TS1) on input line 94.
+LaTeX Encoding Info:    Redeclaring text symbol \textoneoldstyle (encoding TS1) on input line 95.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwooldstyle (encoding TS1) on input line 96.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreeoldstyle (encoding TS1) on input line 97.
+LaTeX Encoding Info:    Redeclaring text symbol \textfouroldstyle (encoding TS1) on input line 98.
+LaTeX Encoding Info:    Redeclaring text symbol \textfiveoldstyle (encoding TS1) on input line 99.
+LaTeX Encoding Info:    Redeclaring text symbol \textsixoldstyle (encoding TS1) on input line 100.
+LaTeX Encoding Info:    Redeclaring text symbol \textsevenoldstyle (encoding TS1) on input line 101.
+LaTeX Encoding Info:    Redeclaring text symbol \texteightoldstyle (encoding TS1) on input line 102.
+LaTeX Encoding Info:    Redeclaring text symbol \textnineoldstyle (encoding TS1) on input line 103.
+LaTeX Encoding Info:    Redeclaring text symbol \textlangle (encoding TS1) on input line 104.
+LaTeX Encoding Info:    Redeclaring text symbol \textminus (encoding TS1) on input line 105.
+LaTeX Encoding Info:    Redeclaring text symbol \textrangle (encoding TS1) on input line 106.
+LaTeX Encoding Info:    Redeclaring text symbol \textmho (encoding TS1) on input line 107.
+LaTeX Encoding Info:    Redeclaring text symbol \textbigcircle (encoding TS1) on input line 108.
+LaTeX Encoding Info:    Redeclaring text command \textcircled (encoding TS1) on input line 109.
+LaTeX Encoding Info:    Redeclaring text symbol \textohm (encoding TS1) on input line 115.
+LaTeX Encoding Info:    Redeclaring text symbol \textlbrackdbl (encoding TS1) on input line 116.
+LaTeX Encoding Info:    Redeclaring text symbol \textrbrackdbl (encoding TS1) on input line 117.
+LaTeX Encoding Info:    Redeclaring text symbol \textuparrow (encoding TS1) on input line 118.
+LaTeX Encoding Info:    Redeclaring text symbol \textdownarrow (encoding TS1) on input line 119.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciigrave (encoding TS1) on input line 120.
+LaTeX Encoding Info:    Redeclaring text symbol \textborn (encoding TS1) on input line 121.
+LaTeX Encoding Info:    Redeclaring text symbol \textdivorced (encoding TS1) on input line 122.
+LaTeX Encoding Info:    Redeclaring text symbol \textdied (encoding TS1) on input line 123.
+LaTeX Encoding Info:    Redeclaring text symbol \textleaf (encoding TS1) on input line 124.
+LaTeX Encoding Info:    Redeclaring text symbol \textmarried (encoding TS1) on input line 125.
+LaTeX Encoding Info:    Redeclaring text symbol \textmusicalnote (encoding TS1) on input line 126.
+LaTeX Encoding Info:    Redeclaring text symbol \texttildelow (encoding TS1) on input line 127.
+LaTeX Encoding Info:    Redeclaring text symbol \textdblhyphenchar (encoding TS1) on input line 128.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciibreve (encoding TS1) on input line 129.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciicaron (encoding TS1) on input line 130.
+LaTeX Encoding Info:    Redeclaring text symbol \textacutedbl (encoding TS1) on input line 131.
+LaTeX Encoding Info:    Redeclaring text symbol \textgravedbl (encoding TS1) on input line 132.
+LaTeX Encoding Info:    Redeclaring text symbol \textdagger (encoding TS1) on input line 133.
+LaTeX Encoding Info:    Redeclaring text symbol \textdaggerdbl (encoding TS1) on input line 134.
+LaTeX Encoding Info:    Redeclaring text symbol \textbardbl (encoding TS1) on input line 135.
+LaTeX Encoding Info:    Redeclaring text symbol \textperthousand (encoding TS1) on input line 136.
+LaTeX Encoding Info:    Redeclaring text symbol \textbullet (encoding TS1) on input line 137.
+LaTeX Encoding Info:    Redeclaring text symbol \textcelsius (encoding TS1) on input line 138.
+LaTeX Encoding Info:    Redeclaring text symbol \textdollaroldstyle (encoding TS1) on input line 139.
+LaTeX Encoding Info:    Redeclaring text symbol \textcentoldstyle (encoding TS1) on input line 140.
+LaTeX Encoding Info:    Redeclaring text symbol \textflorin (encoding TS1) on input line 141.
+LaTeX Encoding Info:    Redeclaring text symbol \textcolonmonetary (encoding TS1) on input line 142.
+LaTeX Encoding Info:    Redeclaring text symbol \textwon (encoding TS1) on input line 143.
+LaTeX Encoding Info:    Redeclaring text symbol \textnaira (encoding TS1) on input line 144.
+LaTeX Encoding Info:    Redeclaring text symbol \textguarani (encoding TS1) on input line 145.
+LaTeX Encoding Info:    Redeclaring text symbol \textpeso (encoding TS1) on input line 146.
+LaTeX Encoding Info:    Redeclaring text symbol \textlira (encoding TS1) on input line 147.
+LaTeX Encoding Info:    Redeclaring text symbol \textrecipe (encoding TS1) on input line 148.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobang (encoding TS1) on input line 149.
+LaTeX Encoding Info:    Redeclaring text symbol \textinterrobangdown (encoding TS1) on input line 150.
+LaTeX Encoding Info:    Redeclaring text symbol \textdong (encoding TS1) on input line 151.
+LaTeX Encoding Info:    Redeclaring text symbol \texttrademark (encoding TS1) on input line 152.
+LaTeX Encoding Info:    Redeclaring text symbol \textpertenthousand (encoding TS1) on input line 153.
+LaTeX Encoding Info:    Redeclaring text symbol \textpilcrow (encoding TS1) on input line 154.
+LaTeX Encoding Info:    Redeclaring text symbol \textbaht (encoding TS1) on input line 155.
+LaTeX Encoding Info:    Redeclaring text symbol \textnumero (encoding TS1) on input line 156.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiscount (encoding TS1) on input line 157.
+LaTeX Encoding Info:    Redeclaring text symbol \textestimated (encoding TS1) on input line 158.
+LaTeX Encoding Info:    Redeclaring text symbol \textopenbullet (encoding TS1) on input line 159.
+LaTeX Encoding Info:    Redeclaring text symbol \textservicemark (encoding TS1) on input line 160.
+LaTeX Encoding Info:    Redeclaring text symbol \textlquill (encoding TS1) on input line 161.
+LaTeX Encoding Info:    Redeclaring text symbol \textrquill (encoding TS1) on input line 162.
+LaTeX Encoding Info:    Redeclaring text symbol \textcent (encoding TS1) on input line 163.
+LaTeX Encoding Info:    Redeclaring text symbol \textsterling (encoding TS1) on input line 164.
+LaTeX Encoding Info:    Redeclaring text symbol \textcurrency (encoding TS1) on input line 165.
+LaTeX Encoding Info:    Redeclaring text symbol \textyen (encoding TS1) on input line 166.
+LaTeX Encoding Info:    Redeclaring text symbol \textbrokenbar (encoding TS1) on input line 167.
+LaTeX Encoding Info:    Redeclaring text symbol \textsection (encoding TS1) on input line 168.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciidieresis (encoding TS1) on input line 169.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyright (encoding TS1) on input line 170.
+LaTeX Encoding Info:    Redeclaring text symbol \textordfeminine (encoding TS1) on input line 171.
+LaTeX Encoding Info:    Redeclaring text symbol \textcopyleft (encoding TS1) on input line 172.
+LaTeX Encoding Info:    Redeclaring text symbol \textlnot (encoding TS1) on input line 173.
+LaTeX Encoding Info:    Redeclaring text symbol \textcircledP (encoding TS1) on input line 174.
+LaTeX Encoding Info:    Redeclaring text symbol \textregistered (encoding TS1) on input line 175.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciimacron (encoding TS1) on input line 176.
+LaTeX Encoding Info:    Redeclaring text symbol \textdegree (encoding TS1) on input line 177.
+LaTeX Encoding Info:    Redeclaring text symbol \textpm (encoding TS1) on input line 178.
+LaTeX Encoding Info:    Redeclaring text symbol \texttwosuperior (encoding TS1) on input line 179.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreesuperior (encoding TS1) on input line 180.
+LaTeX Encoding Info:    Redeclaring text symbol \textasciiacute (encoding TS1) on input line 181.
+LaTeX Encoding Info:    Redeclaring text symbol \textmu (encoding TS1) on input line 182.
+LaTeX Encoding Info:    Redeclaring text symbol \textparagraph (encoding TS1) on input line 183.
+LaTeX Encoding Info:    Redeclaring text symbol \textperiodcentered (encoding TS1) on input line 184.
+LaTeX Encoding Info:    Redeclaring text symbol \textreferencemark (encoding TS1) on input line 185.
+LaTeX Encoding Info:    Redeclaring text symbol \textonesuperior (encoding TS1) on input line 186.
+LaTeX Encoding Info:    Redeclaring text symbol \textordmasculine (encoding TS1) on input line 187.
+LaTeX Encoding Info:    Redeclaring text symbol \textsurd (encoding TS1) on input line 188.
+LaTeX Encoding Info:    Redeclaring text symbol \textonequarter (encoding TS1) on input line 189.
+LaTeX Encoding Info:    Redeclaring text symbol \textonehalf (encoding TS1) on input line 190.
+LaTeX Encoding Info:    Redeclaring text symbol \textthreequarters (encoding TS1) on input line 191.
+LaTeX Encoding Info:    Redeclaring text symbol \texteuro (encoding TS1) on input line 192.
+LaTeX Encoding Info:    Redeclaring text symbol \texttimes (encoding TS1) on input line 193.
+LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on input line 194.
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
+Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting with LuaLaTeX
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count341
+)
+Lua module: lualatex-math 2013/08/03 v1.3 Patches for mathematics typesetting with LuaLaTeX)
+\g__um_fam_int=\count342
+\g__um_fonts_used_int=\count343
+\l__um_primecount_int=\count344
+\g__um_primekern_muskip=\muskip18
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latex-lab/latex-lab-unicode-math.ltx
+File: latex-lab-unicode-math.ltx 2025-05-25 v0.1d unicode-mathadaptions
+LaTeX Info: Redefining \frac on input line 88.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks24
+\MT@tempbox=\box66
+\MT@count=\count345
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks25
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen164
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count346
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype-luatex.def
+File: microtype-luatex.def 2025/07/09 v3.2b Definitions specific to luatex (RS)
+Lua module: microtype 2025/07/09 v3.2b microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 779.
+LaTeX Info: Redefining \lslig on input line 779.
+\MT@outer@space=\skip77
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/xcolor-patches-tmp-ltx.sty
+Package: xcolor-patches-tmp-ltx 2025-07-15 v0.96u patch xcolor for l3color
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
+File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count347
+\FV@InFile=\read2
+\FV@TabBox=\box67
+\c@FancyVerbLine=\count348
+\FV@StepNumber=\count349
+\FV@OutFile=\write3
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip78
+\fb@frw=\dimen165
+\fb@frh=\dimen166
+\FrameRule=\dimen167
+\FrameSep=\dimen168
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count350
+\LTcapwidth=\dimen169
+\LT@head=\box68
+\LT@firsthead=\box69
+\LT@foot=\box70
+\LT@lastfoot=\box71
+\LT@gbox=\box72
+\LT@cols=\count351
+\LT@rows=\count352
+\c@LT@tables=\count353
+\c@LT@chunks=\count354
+\LT@p@ftn=\toks26
+)
+Class scrartcl Info: longtable captions redefined on input line 113.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count355
+\@cmidlb=\count356
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count357
+\@lastruleclass=\count358
+\@thisrulewidth=\dimen182
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count359
+\calc@Bcount=\count360
+\calc@Adimen=\dimen183
+\calc@Bdimen=\dimen184
+\calc@Askip=\skip83
+\calc@Bskip=\skip84
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count361
+\calc@Cskip=\skip85
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box73
+\fn@width=\dimen185
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 106.
+)
+\Gin@req@height=\dimen186
+\Gin@req@width=\dimen187
+)
+\pandoc@box=\box74
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2025/07/08 version 6.7.1 text color boxes
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen188
+\pgfutil@tempdimb=\dimen189
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box75
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks28
+\pgfkeys@temptoks=\toks29
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks30
+))
+\pgf@x=\dimen190
+\pgf@y=\dimen191
+\pgf@xa=\dimen192
+\pgf@ya=\dimen193
+\pgf@xb=\dimen194
+\pgf@yb=\dimen195
+\pgf@xc=\dimen196
+\pgf@yc=\dimen197
+\pgf@xd=\dimen198
+\pgf@yd=\dimen199
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count362
+\c@pgf@countb=\count363
+\c@pgf@countc=\count364
+\c@pgf@countd=\count365
+\t@pgf@toka=\toks31
+\t@pgf@tokb=\toks32
+\t@pgf@tokc=\toks33
+\pgf@sys@id@count=\count366
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-luatex.def
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-luatex.def
+File: pgfsys-luatex.def 2023-01-15 v3.1.10 (3.1.10)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count367
+\pgfsyssoftpath@bigbuffer@items=\count368
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen256
+\pgfmath@count=\count369
+\pgfmath@box=\box76
+\pgfmath@toks=\toks34
+\pgfmath@stack@operand=\toks35
+\pgfmath@stack@operation=\toks36
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count370
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen257
+\pgf@picmaxx=\dimen258
+\pgf@picminy=\dimen259
+\pgf@picmaxy=\dimen260
+\pgf@pathminx=\dimen261
+\pgf@pathmaxx=\dimen262
+\pgf@pathminy=\dimen263
+\pgf@pathmaxy=\dimen264
+\pgf@xx=\dimen265
+\pgf@xy=\dimen266
+\pgf@yx=\dimen267
+\pgf@yy=\dimen268
+\pgf@zx=\dimen269
+\pgf@zy=\dimen270
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen271
+\pgf@path@lasty=\dimen272
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen273
+\pgf@shorten@start@additional=\dimen274
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box77
+\pgf@hbox=\box78
+\pgf@layerbox@main=\box79
+\pgf@picture@serial@count=\count371
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen275
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen276
+\pgf@pt@y=\dimen277
+\pgf@pt@temp=\dimen278
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen279
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen280
+\pgf@sys@shading@range@num=\count372
+\pgf@shadingcount=\count373
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box80
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box81
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen281
+\pgf@nodesepend=\dimen282
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen283
+\pgffor@skip=\dimen284
+\pgffor@stack=\toks37
+\pgffor@toks=\toks38
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count374
+\pgfplotmarksize=\dimen285
+)
+\tikz@lastx=\dimen286
+\tikz@lasty=\dimen287
+\tikz@lastxsaved=\dimen288
+\tikz@lastysaved=\dimen289
+\tikz@lastmovetox=\dimen290
+\tikz@lastmovetoy=\dimen291
+\tikzleveldistance=\dimen292
+\tikzsiblingdistance=\dimen293
+\tikz@figbox=\box82
+\tikz@figbox@bg=\box83
+\tikz@tempbox=\box84
+\tikz@tempbox@bg=\box85
+\tikztreelevel=\count375
+\tikznumberofchildren=\count376
+\tikznumberofcurrentchild=\count377
+\tikz@fig@count=\count378
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count379
+\pgfmatrixcurrentcolumn=\count380
+\pgf@matrix@numberofcolumns=\count381
+)
+\tikz@expandcount=\count382
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks39
+\verbatim@line=\toks40
+\verbatim@in@stream=\read4
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box86
+\tcb@upperbox=\box87
+\tcb@lowerbox=\box88
+\tcb@phantombox=\box89
+\c@tcbbreakpart=\count383
+\c@tcblayer=\count384
+\c@tcolorbox@number=\count385
+\l__tcobox_tmpa_box=\box90
+\l__tcobox_tmpa_dim=\dimen294
+\tcb@temp=\box91
+\tcb@temp=\box92
+\tcb@temp=\box93
+\tcb@temp=\box94
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.7.1'
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty
+Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
+\l__tikzfill_img_box=\box95
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.7.1'
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.7.1'
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+Package pdfcol Info: New color stack `tcb@breakable' = 2 on input line 23.
+\tcb@testbox=\box96
+\tcb@totalupperbox=\box97
+\tcb@totallowerbox=\box98
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawesome5.sty
+Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/fontawesome5-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesome5
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count386
+)
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
+)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on input line 69.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on input line 70.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd))) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen295
+\captionmargin=\dimen296
+\caption@leftmargin=\dimen297
+\caption@rightmargin=\dimen298
+\caption@width=\dimen299
+\caption@indent=\dimen300
+\caption@parindent=\dimen301
+\caption@hangindent=\dimen302
+Package caption Info: KOMA-Script document class detected.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption-koma.sto
+File: caption-koma.sto 2023/09/08 v2.0e Adaption of the caption package to the KOMA-Script document classes (AR)
+))
+\c@caption@flags=\count387
+\c@continuedfloat=\count388
+Package caption Info: longtable package is loaded.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: KOMA-Script scrextend package detected.
+\caption@addmargin@hsize=\dimen303
+\caption@addmargin@linewidth=\dimen304
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count389
+\float@exts=\toks41
+\float@box=\box99
+\@float@everytoks=\toks42
+\@floatcapt=\box100
+)
+\@float@every@codelisting=\toks43
+\c@codelisting=\count390
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count391
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count392
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks44
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count393
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen305
+\Hy@linkcounter=\count394
+\Hy@pagecounter=\count395
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count396
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4066.
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count397
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip19
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen306
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count398
+\Field@Width=\dimen307
+\Fld@charsize=\dimen308
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count399
+\c@Item=\count400
+)
+Package hyperref Info: Driver (custom): hgeneric-testphase.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/hgeneric-testphase.def
+File: hgeneric-testphase.def 2025-07-15 v0.96u generic Hyperref driver for the LaTeX PDF management bundle
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfmanagement-testphase/hyperref-colorschemes.def)
+LaTeX Info: Redefining \href on input line 274.
+LaTeX Info: Redefining \url on input line 360.
+\l__hyp_tmpa_box=\box101
+\l__hyp_tmpa_int=\count401
+\l__hyp_dest_box=\box102
+\g__hyp_linknestlevel_int=\count402
+\HyAnn@Count=\count403
+\Fld@listcount=\count404
+\Hy@SectionHShift=\skip86
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count405
+)) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/lualatex/luamml/luamml.sty
+Package: luamml 2025-06-25 v0.6.0 Automatically generate presentational MathML from LuaTeX math expressions
+\l__luamml_flag_int=\count406
+\l__luamml_pretty_int=\count407
+\tracingmathml=\count408
+Lua function RegisterFamilyMapping = 31
+Lua function RegisterTextFamily = 32
+Inserting `dump_list' in `pre_mlist_to_hlist_filter'.
+Lua function luamml_get_last_mathml_stream:e = 33
+Lua function luamml_begin_single_file: = 34
+Lua function luamml_end_single_file: = 35
+Lua function __luamml_register_output_hook:N = 36
+Lua function __luamml_disable_output_hook: = 37
+Lua function __luamml_annotate_begin: = 38
+Lua function __luamml_annotate_end:we = 39
+Lua function __luamml_annotate_end:e = 40
+Lua function __luamml_annotate_attribute_end:e = 41
+Inserting `mathml amsmath processing' in `hpack_filter'.
+Lua function __luamml_array_init_col: = 42
+Lua function __luamml_array_finalize_col:w = 43
+Lua function __luamml_array_save_array: = 44
+Lua function __luamml_array_finalize_array: = 45
+\l__luamml_amsmath_tag_struct_num_int=\count409
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/lualatex/luamml/luamml-patches-kernel.sty
+Package: luamml-patches-kernel 2025-06-25 v0.6.0 Feel free to add a description here
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/lualatex/luamml/luamml-patches-amsmath.sty
+Package: luamml-patches-amsmath 2025-06-25 v0.6.0 Feel free to add a description here
+Lua function __luamml_amsmath_add_last_to_row: = 46
+Lua function __luamml_amsmath_add_box_to_row: = 47
+Lua function __luamml_amsmath_set_row_columnalign:n = 48
+Lua function __luamml_amsmath_save_inner_table:n = 49
+Lua function __luamml_amsmath_save_smallmatrix: = 50
+Lua function __luamml_amsmath_finalize_inner_table: = 51
+Lua function __luamml_amsmath_finalize_table:n = 52
+Lua function __luamml_amsmath_save_tag: = 53
+Lua function __luamml_amsmath_save_tag_with_struct_elem:N = 54
+Lua function __luamml_amsmath_set_tag: = 55)) (./quarto_a11y.aux)
+\openout1 = quarto_a11y.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
+LaTeX Font Info:    ... okay on input line 215.
+Inserting `tagpdf' in `pre_shipout_filter'.
+Inserting `tagpdf' in `pre_shipout_filter'.
+Package scrbase Info: activating english \abstractname on input line 215.
+Package scrbase Info: activating english \partname on input line 215.
+Package scrbase Info: activating english \figurename on input line 215.
+Package scrbase Info: activating english \tablename on input line 215.
+Package scrbase Info: activating english \contentsname on input line 215.
+Package scrbase Info: activating english \listfigurename on input line 215.
+Package scrbase Info: activating english \listtablename on input line 215.
+Package scrbase Info: activating english \refname on input line 215.
+Package scrbase Info: activating english \indexname on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 215.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 215.
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(0)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 215.
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(1)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=0;"<-6.57>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;+ssty=1;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;"
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 215.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 215.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 215.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 215.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 215.
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(2)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf},RawFeature={mathfontdimen=tex2}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=0;"<-6.57>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;+ssty=1;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex2;"
+
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 215.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 215.
+LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 215.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 215.
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             latinmodern-math scale = 0.9999967668407183.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'latinmodern-math.otf(3)' created for font
+(fontspec)             'latinmodern-math.otf' with options
+(fontspec)             [Scale=MatchLowercase,Renderer=Basic,BoldItalicFont={},ItalicFont={},SmallCapsFont={},Script=Math,SizeFeatures={{Size=9.3075-},{Size=6.57-9.3075,Font=latinmodern-math.otf,Style=MathScript},{Size=-6.57,Font=latinmodern-math.otf,Style=MathScriptScript}},RawFeature={mathfontdimen=xetex},BoldFont={latinmodern-math.otf},RawFeature={mathfontdimen=tex3}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <9.3075->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"<6.57-9.3075>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=0;"<-6.57>s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;+ssty=1;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->s*[0.9999967668407183]"[latinmodern-math.otf]:mode=base;script=math;language=dflt;mathfontdimen=xetex;mathfontdimen=tex3;"
+
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 215.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 215.
+LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 215.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 215.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 215.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.665pt on input line 215.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.475pt on input line 215.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 215.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 215.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Info: Redefining \microtypecontext on input line 215.
+Package microtype Info: Applying patch `item' on input line 215.
+Package microtype Info: Applying patch `toc' on input line 215.
+Package microtype Info: Applying patch `eqnum' on input line 215.
+Package microtype Info: Applying patch `footnote' on input line 215.
+Package microtype Info: Applying patch `verbatim' on input line 215.
+LaTeX Info: Redefining \microtypesetup on input line 215.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using protrusion set `basicmath'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Modern Roman (RS)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring OFF on input line 215.
+\g__math_luamml_iow=\write5
+
+\openout5 = quarto_a11y-luamml-mathml.html
+
+Package tagpdf Info: luamml has been enabled and will create an MathML file.
+
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 14.4pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 217.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 217.
+(c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+) (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+Floatstructure:39
+<quarto_a11y_files/figure-pdf/fig-cars-1.png, id=60, 397.485pt x 252.945pt>
+File: quarto_a11y_files/figure-pdf/fig-cars-1.png Graphicfile(typepng)
+<use quarto_a11y_files/figure-pdf/fig-cars-1.png>
+Package luatex.def Info: quarto_a11y_files/figure-pdf/fig-cars-1.png  used on input line 248.
+(luatex.def)             Requested size: 397.48402pt x 252.94438pt.
+Floatstructure:53
+<figures/figure.png, id=77, 505.89pt x 361.35pt>
+File: figures/figure.png Graphicfile(typepng)
+<use figures/figure.png>
+Package luatex.def Info: figures/figure.png  used on input line 267.
+(luatex.def)             Requested size: 505.88875pt x 361.34912pt.
+
+
+[1
+
+
+{c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 360--360
+[]|\TU/lmr/m/n/10.95 Sea­sonal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 361--361
+[]|\TU/lmr/m/n/10.95 Steady
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 364--365
+[]|\TU/lmr/m/n/10.95 Good per­
+ []
+
+
+
+[2<./quarto_a11y_files/figure-pdf/fig-cars-1.png>]
+
+[3<./figures/figure.png>]
+
+[4]<<latex-list-css.html>><<latex-align-css.html>> (./quarto_a11y.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-19>
+ ***********
+
+Package tagpdf Info: Finalizing the tagging structure:
+(tagpdf)             Writing out ~232 structure objects
+(tagpdf)             with ~100 'MC' leaf nodes.
+(tagpdf)             Be patient if there are lots of objects!
+
+Package tagpdf Info: writing ParentTree
+Package tagpdf Info: writing IDTree
+Package tagpdf Info: writing RoleMap
+Package tagpdf Info: writing ClassMap
+Package tagpdf Info: writing NameSpaces
+Package tagpdf Info: writing StructElems
+Package tagpdf Info: writing Root
+)
+
+Here is how much of LuaTeX's memory you used:
+ 48709 strings out of 470133
+ 100000,2373549 words of node,token memory allocated
+ 612 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 2 glyph, 14 attribute, 70 glue_spec, 9 attribute_list, 1 write nodes
+   avail lists: 1:3,2:4649,3:953,4:166,5:233,6:65,7:4672,8:1,9:751,10:4,11:179,12:1
+ 76007 multiletter control sequences out of 65536+600000
+ 65 fonts using 19430207 bytes
+ 108i,7n,114p,10905b,1126s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/fontawesome5/FontAwesome5Free-Solid-900.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf><c:/Users/samantha.schiano/AppData/Roaming/TinyTeX/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf>
+Output written on quarto_a11y.pdf (4 pages, 175772 bytes).
+
+PDF statistics: 382 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 131072)
+ 1348 words of extra memory for PDF output out of 10000 (max. 100000000)
+

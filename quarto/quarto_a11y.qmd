@@ -1,0 +1,129 @@
+---
+title: "Quarto a11y feature testing"
+format:
+  pdf:
+    keep-tex: true
+pdf-engine: lualatex
+---
+
+## Making Quarto pdf more accessible
+
+Yaml pre-requisites:
+
+- lualatex engine
+- full install of tinytex (bundle = "TinyTeX-2")
+- `keep-tex: true` to keep the tex file for debugging
+
+## Rendering Figures
+
+The following figures are made within a quarto doc and get produced from the R code chunks below. Their alternative text is stored in the captions_alt_text.csv file.
+
+The add_alttext() function sourced from a11y_script.R uses the captions_alt_text.csv file to find and match the alt text to the produced figures.
+
+
+```{r}
+#| eval: true
+#| label: fig-cars
+#| fig-alt: this is my alt text
+#| fig-cap: A scatter plot of MPG vs Weight
+#| echo: false
+library(ggplot2)
+# plot_ex <- 
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Scatter plot of MPG vs Weight",
+       x = "Weight (1000 lbs)",
+       y = "Miles per Gallon (MPG)") +
+  theme_bw()
+# save(plot_ex, file = "figures/fig-cars-plot1.rda")
+```
+
+
+- Recommended: load image still from a chunk so it's easier to add options
+
+```{r}
+#| eval: true
+#| echo: false
+#| label: fig-random
+#| fig-cap: This is the caption for the second plot.
+knitr::include_graphics(file.path("figures", "figure.png"))
+```
+
+Ways to add alt text to figures in pdf from latex:
+
+*For non-chunk figures, user needs to specify the label for our function to work*
+
+- @ the end of the reference to figure line you can add brackets containing the alt text
+
+```{.verbatim}
+![](figures/figure.png){alt="Here is my alt text for this image",#fig-testa}
+```
+
+- within the brackets specifting alt="text" (this method is not working though)
+
+```{.verbatim}
+![alt=This is my alternative text for this image](figures/figure.png){#fig-testb}
+```
+
+
+### How it's done in latex
+
+```{latex}
+\includegraphics[keepaspectratio,alt={"This is alt text"}]{figures/figure.png}
+```
+
+::: {.callout-note}
+The above method is the recommended practice and what is used in our add_alttext() function
+:::
+
+```{latex}
+\includegraphics[keepaspectratio]{figures/figure.png}{This is alt text.}
+```
+
+::: {.callout-note}
+The above method does not work when pandoc bounded surrounds the figure and does not produce alt text when tagpdf is run.
+:::
+
+
+## Rendering Tables
+
+The current tables produced from quarto can not be tagged and are not compatible with tagpdf. A table will half compiling the document.
+
+
+```{r}
+#| eval: false
+#| echo: false
+library(flextable)
+flextable(head(cars))
+```
+
+Here is alternate code that works for a table to get tagged:
+
+\begin{longtable}[c]{|p{0.75in}|p{0.75in}|p{0.75in}|p{0.75in}|p{0.75in}|}
+\hline % Replaced \ascline
+\multicolumn{1}{|>{\raggedright\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Product Category}} &
+\multicolumn{1}{>{\raggedleft\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Quarter 1 Sales}} &
+\multicolumn{1}{>{\raggedleft\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Quarter 2 Sales}} &
+\multicolumn{1}{>{\raggedleft\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Growth (\%)}} &
+\multicolumn{1}{>{\raggedright\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Notes}} \\
+\hline % Replaced \ascline
+\endfirsthead
+%
+\hline % Replaced \ascline
+\multicolumn{1}{|>{\raggedright\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Product Category}} &
+\multicolumn{1}{>{\raggedleft\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Quarter 1 Sales}} &
+\multicolumn{1}{>{\raggedleft\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Quarter 2 Sales}} &
+\multicolumn{1}{>{\raggedleft\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Growth (\%)}} &
+\multicolumn{1}{>{\raggedright\arraybackslash}m{\dimexpr 0.75in}|}{\textbf{Notes}} \\
+\hline % Replaced \ascline
+\endhead
+%
+Fruits & 12,000 & 15,000 & 25.0 & Seasonal peak \\ \hline
+Vegetables & 8,500 & 9,200 & 8.2 & Steady growth \\ \hline
+Grains & 6,200 & 7,000 & 12.9 & New product line \\ \hline
+Dairy & 9,800 & 10,500 & 7.1 & Stable \\ \hline
+Protein & 7,500 & 8,100 & 8.0 & Good performance \\
+\hline % Replaced \ascline
+\end{longtable}
+
+Gemini provided a range of suggestions and feedback when I fed it an example table produced from quarto. Our findings can be found in [this issue](https://github.com/nmfs-ost/stockplotr/issues/123). We used flextable for producing our tables and have heard there can be some incompatability issues with this whole workflow.
